@@ -71,3 +71,8 @@ Représentation de la prévision de la 4ème année selon la régression simple 
 Voici la prévision par lissage exponentiel triple :
 
 ![LET1](http://img11.hostingpics.net/pics/625667prevlissexpotriple.png "LET1")
+
+
+###Conclusion
+
+L'ensemble des prévisions obtenues sont équivalentes et ne nous permettent pas de faire ressortir une méthode plus adaptée pour notre série de données.
