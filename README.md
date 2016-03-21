@@ -15,13 +15,13 @@ Après réflexion, nous avons choisi de prendre les entrées par jour à la BU q
 
 Voici les données brutes de notre jeu de données.
 
-![Jeu de données brutes](http://img11.hostingpics.net/pics/625311plotdonneesbrut.png "Jeu de données brutes")
+![Jeu de données brutes](http://img11.hostingpics.net/pics/625311plotdonneesbrut.png)
 
 ###Corrélogramme
 
 Le corrélogramme de la série est le suivant.
 
-![Corrélogramme](http://img11.hostingpics.net/pics/430950correlogramme.png "Corrélogramme")
+![Corrélogramme](http://img11.hostingpics.net/pics/430950correlogramme.png)
 
 On distingue ici une saisonnalité mais pas de tendance. Le corrélogramme ci-dessus n'est pas parfait (beaucoup de données se trouvent entre les pointillés), mais l'alternance de données groupées positives-négatives nous confirme bien une saisonnalité.
 
@@ -30,13 +30,13 @@ Nous avons alors appliqué le test d'analyse de la variance. Il nous confirme la
 
 ###Filtrage par moyenne mobile
 
-![FPMM](http://img11.hostingpics.net/pics/695099moymobile.png "FPMM")
+![FPMM](http://img11.hostingpics.net/pics/695099moymobile.png)
 
 ###Estimation des coefficients saisonniers
 
 On a estimé les coefficients saisonniers sur la série. Voici l'illustration des coefficients :
 
-![CS](http://img11.hostingpics.net/pics/668821unesaisonnalite.png "CS")
+![CS](http://img11.hostingpics.net/pics/668821unesaisonnalite.png)
 
 ###Prévisions de la 4ème année
 
@@ -48,11 +48,11 @@ Dans un premier temps, on désaisonnalise la série.
 
 Représention de la régression simple (estimation de la tendance) :
 
-![RLS1](http://img11.hostingpics.net/pics/922613regsimple.png "RLS1")
+![RLS1](http://img11.hostingpics.net/pics/922613regsimple.png)
 
 Représentation de la prévision de la 4ème année selon la régression simple :
 
-![RLS1](http://img11.hostingpics.net/pics/538752prevregsimple.png "RLS2")
+![RLS1](http://img11.hostingpics.net/pics/538752prevregsimple.png)
 
 #####Régression multiple
 
@@ -60,17 +60,17 @@ Ici, on utilise la même méthode que précédemment mais avec un polynôme de d
 
 Représentation de la tendance :
 
-![RM1](http://img11.hostingpics.net/pics/458634regmultiple.png "RM1")
+![RM1](http://img11.hostingpics.net/pics/458634regmultiple.png)
 
 Représentation de la prévision de la 4ème année selon la régression simple :
 
-![RM2](http://img11.hostingpics.net/pics/306034prevregmultiple.png "RM2")
+![RM2](http://img11.hostingpics.net/pics/306034prevregmultiple.png)
 
 ####Par lissage exponentiel triple
 
 Voici la prévision par lissage exponentiel triple :
 
-![LET1](http://img11.hostingpics.net/pics/625667prevlissexpotriple.png "LET1")
+![LET1](http://img11.hostingpics.net/pics/625667prevlissexpotriple.png)
 
 
 ###Conclusion
