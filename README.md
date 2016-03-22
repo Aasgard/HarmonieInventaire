@@ -3,7 +3,7 @@
 
 ###Objectif du projet
 
-L'objectif principal du projet est d'être capable de prédire les évolutions futures d'uun jeu données.
+L'objectif principal du projet est d'être capable de prédire les évolutions futures d'un jeu données.
 
 ###Provenance des données
 
@@ -48,7 +48,9 @@ Dans un premier temps, on désaisonnalise la série.
 
 Représention de la régression simple (estimation de la tendance) :
 
-![RLS1](http://img11.hostingpics.net/pics/922613regsimple.png)
+![RLS1](http://img15.hostingpics.net/pics/725599prevregtotsimple.png)
+
+L'erreur quadratique de ce modèle est de 104162831 ce qui est quand même assez élevé.
 
 Représentation de la prévision de la 4ème année selon la régression simple :
 
@@ -60,7 +62,9 @@ Ici, on utilise la même méthode que précédemment mais avec un polynôme de d
 
 Représentation de la tendance :
 
-![RM1](http://img11.hostingpics.net/pics/458634regmultiple.png)
+![RM1](http://img15.hostingpics.net/pics/521688prevregtotmult.png)
+
+L'erreur quadratique de ce modèle est de 109312625. Ce qui est encore plus élevé que la valeur précédente.
 
 Représentation de la prévision de la 4ème année selon la régression simple :
 
@@ -72,7 +76,9 @@ Voici la prévision par lissage exponentiel triple :
 
 ![LET1](http://img11.hostingpics.net/pics/625667prevlissexpotriple.png)
 
+L'erreur quadratique est de 10049081. Qui correspond alors au meilleur modèle ici présent.
+
 
 ###Conclusion
 
-L'ensemble des prévisions obtenues sont équivalentes et ne nous permettent pas de faire ressortir une méthode plus adaptée pour notre série de données.
+Notre meilleur modèle prévisionnel est donc le troisième modèle, optenu à partir du lissage exponentiel triple.
